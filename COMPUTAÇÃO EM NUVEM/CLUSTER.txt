@@ -1,6 +1,0 @@
-Cluster é um termo utilizado na área de computação para se referir a um conjunto de computadores interconectados que trabalham juntos 
-para realizar uma tarefa em comum. O objetivo do cluster é aumentar o poder de processamento, a capacidade de armazenamento e/ou a disponibilidade de 
-recursos computacionais. 
-Um exemplo de aplicação de cluster é em 
-servidores web de alta demanda, onde vários servidores são agrupados para garantir que o site possa atender a um grande número de usuários 
-simultaneamente.
