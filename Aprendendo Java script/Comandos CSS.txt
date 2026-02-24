@@ -1,8 +1,0 @@
-<style>:ESTILO                                                                                                
-background-color: muda a cor de fundo                                                                          
-color: muda a cor da fonte                                                                                    
-font: muda a fonte das letras, 20 tamanho da letra
-width: muda a largura do quedro
-height: muda a altura do quadro
-line-height: muda dentro do quatro o texto
-text-align: ceter -> muda dentro do quandro o texto para o centro

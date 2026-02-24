@@ -1,3 +1,0 @@
-/*comentario em CSS*/
-<!--isso é um comentario em html-->
-//comentario em javascript//

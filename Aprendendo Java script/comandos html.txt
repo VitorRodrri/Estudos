@@ -1,6 +1,0 @@
--CONTEUDO
-<h1></h1>: indentifica como um titulo
-<p></p>: paragrafo
-<hr> fazer uma linha
-<img src= comando para carregar uma imagem       alt= criar uma legenda para imagem
-linkfavicon -> usaco para colocar o incone no site
