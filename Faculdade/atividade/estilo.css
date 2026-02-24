@@ -1,0 +1,120 @@
+#total{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+#topo{
+    background-color:#4169E1;
+    width: 95%;
+    height: 100px;
+    margin: auto;
+    float: left;
+    border-width: 15px;
+    border-style: solid;
+    border-color:black ;
+}
+
+#menu{
+    background-color: black;
+    width: 25%;
+    height: 300px;
+    margin: auto;
+    margin-top: 10px;
+    float: left;
+}
+
+#menu1{
+    background-color: #F0E68C;
+    width: 90%;
+    height: 55px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+#secundario{
+    width: 73%;
+    height: 150px;
+    float: right;
+    margin: auto;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#conteudo{
+    background-color: #F0E68C;
+    width: 49%;
+    height: 150px;
+    margin: auto;
+    margin-right: 5px;
+    float: left;
+}
+
+#conteudo2{
+    background-color: #F0E68C;
+    width: 49%;
+    height: 150px;
+    margin: auto;
+    float: right;
+}
+
+#principal{
+    background-color: #4169E1;
+    width: 70%;
+    height: 200px;
+    float: right;
+    margin: auto;
+    margin-top: 10px;
+    margin-right: 9px;
+    border: black;
+    border-style: solid;
+    border-width: 13px;
+}
+
+#img1{
+    background-color: #4169E1;
+    width: 25%;
+    height: 71px;
+    float: left;
+    margin-top: 15px;
+}
+
+#img2{
+    background-color: #4169E1;
+    width: 17%;
+    height: 150px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#img3{
+    background-color: #4169E1;
+    width: 27%;
+    height: 150px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#img4{
+    background-color: #4169E1;
+    width: 27%;
+    height: 150px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#rodape{
+    background-color: #4169E1;
+    width: 97%;
+    height: 50px;
+    float: left;
+    margin: auto;
+    margin-top: 10px;
+    border: black;
+    border-width: 10px;
+    border-style: solid;
+
+}

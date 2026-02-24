@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body{
+        background-color: bisque;
+        font: normal 16pt Arial;
+    }
+</style>
+</head>
+<body>
+    diwapdaw
+    <script>
+        var nome = window.prompt ('Qual seu nome?')
+        window.alert (`Olá ${nome}`)
+        var n1 = Number.parseFloat(window.prompt(`${nome} dígite um número: `))
+        var n2 = Number.parseFloat(window.prompt('digite outro número: '))
+        var s = n1 * n2
+        var negacao = ! s <= 7
+        var conjuncao = s == 7 || s == 10
+        var disjuncao = n1 != 4 && n2 != 3 
+        document.write(`Olá, <strong>${nome}</strong>! a mutiplicação de ${n1} vezes ${n2} é ${s}</br>`)
+        document.write(`O valor de s é menor ou igual a 7? ${negacao}</br>`)
+        document.write(`O valor de s é igual 7 ou 10? ${conjuncao}</br>` )
+        document.write(`O n1 é diferente de 4 e o n2 é diferente de 3 ${disjuncao}</br>`)
+        </script>
+</body>
+</html>

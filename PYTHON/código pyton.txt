@@ -1,0 +1,181 @@
+[21:15] ANDRE PRZEWODOWSKI FILHO
+
+escolha = input("Escolha uma opção de função: 1 ou 2\n")
+
+if escolha == "1":
+
+    def func1(x):
+
+        return x + 1
+
+    s = func1(10)
+
+ 
+
+else:
+
+    def func2(x):
+
+        return x + 2
+
+    s = func2(10)
+
+ 
+
+print(s)
+
+[21:15] ANDRE PRZEWODOWSKI FILHO
+
+def taximetro(distancia, multiplicador=1):
+
+    largada = 3
+
+    km_rodado = 2
+
+    valor = (largada + distancia * km_rodado) * multiplicador
+
+    return valor
+
+ 
+
+x = float(input("Numero: "))
+
+pagamento = taximetro(x,4)
+
+print(pagamento)
+
+[21:15] ANDRE PRZEWODOWSKI FILHO
+
+def func1():
+
+    global x
+
+    x = 10
+
+    print(f'Função func1 - x = {x}')
+
+ 
+
+ 
+
+def func2():
+
+    global x
+
+    x = 20
+
+    print(f'Função func2 - x = {x}')
+
+ 
+
+ 
+
+x = 0
+
+func1()
+
+func2()
+
+print(f'Programa principal - x = {x}')
+
+ cry 1 1f402_ox 1
+
+[21:15] ANDRE PRZEWODOWSKI FILHO
+
+ef taximetro(distancia):
+
+    def calculaMult():
+
+        if distancia < 5:
+
+            return 1.2
+
+        else:
+
+            return 1
+
+ 
+
+    multiplicador = calculaMult()
+
+    largada = 3
+
+    km_rodado = 2
+
+    valor = (largada + distancia * km_rodado) * multiplicador
+
+    return valor
+
+ 
+
+ 
+
+dist = eval(input("Entre com a distancia a ser percorrida em km: \n"))
+
+pagamento = taximetro(dist)
+
+print(f'O valor a pagar é R$ {pagamento}')
+
+ 1f402_ox 1
+
+[21:15] ANDRE PRZEWODOWSKI FILHO
+
+def regressiva(x):
+
+    if x <= 0:
+
+        print("Acabou")
+
+    else:
+
+        print(x)
+
+        regressiva(x-1)
+
+        print(x)
+
+ 
+
+regressiva(5)
+
+ 1f443_nose 1
+
+[21:16] ANDRE PRZEWODOWSKI FILHO
+
+from IPython.core.display import Math
+
+def multiply_numbers(a, b):
+
+    """
+
+    Multiplies two numbers and returns the result.
+
+ 
+
+    Args:
+
+        a (int): The first number.
+
+        b (int): The second number.
+
+ 
+
+    Returns:
+
+        int: The product of a and b.
+
+    """
+
+    return a * b
+
+ 
+
+a = 3
+
+b = 5
+
+print(multiply_numbers(a,b))
+
+print(pow(a,b))
+
+ 1f402_ox 1 cool 1

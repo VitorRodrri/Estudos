@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CADASTRO</title>
+    <link rel="stylesheet" type="text/css" href="css/cadastro.css">
+</head>
+<body>
+    <div id="total">
+        
+        <nav id="menu">
+            <section id="logo">
+               <img src="img/logo.png" alt="logotipo">
+           </section>
+              <a href="index.html">INÍCIO</a>
+              <a href="a_banda.html">A BANDA</a>
+              <a href="agenda.html">AGENDA</a>
+              <a href="formulario.html">CONTATO</a>
+           </nav>
+
+           <section>
+            <img src="img/foto_banda_cad -.png" alt="foto">
+           </section>
+
+           <form action="gravar-cliente.php" >
+            <h1>Cadastre-se para receber informações por e-mail</h1>
+            <label>Seu nome:</label><br>
+            <input class="text-input"  type="text" id="nome_txt" name="nome"><br><br>
+            <section id="erro_nome"></section><br><br>
+
+            <label>Seu e-mail:</label><br>
+            <input class="text-input"  type="text" id="email_txt" name="email"> <br><br>
+            <section id="erro_email"></section><br><br>
+
+            <label>confirme o e-mail:</label><br>
+            <input class="text-input" type="text" id="confirmar-email_txt"><br><br>
+             <section id="erro_confirmar"></section><br><br>
+
+            <button class="botao" type="submit" id="enviar_btn">Enviar</button>
+           </form>
+            
+           <figure id="container">
+            <img id="imagem" src="img/imageswpp.jpg" alt="fotowpp">
+            <figcaption>Entre em contato com a gente <a id="numero" target="_blank" href="https://wa.me/5531996440446">(31)99644-0446</a>
+            <p>email: 202303430477@alunos.estacio.br</p>
+         Instagram: <a href="https://www.instagram.com/vitor_rodrri/">Vitor_rodrri</a> </figcaption>
+           </figure>
+           <footer id="rodape"></footer>
+        </div>
+        <script lang="javascript" src="formulario.js"></script>
+</body>
+</html>

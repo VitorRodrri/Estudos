@@ -1,0 +1,5 @@
+atalho ctrl shift craze
+var: criar variável
+
+123546: inteiros
+1.20, 5.32, -8.13 real

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<style>
+    form{
+        text-align: center;
+        
+    }
+</style>
+
+<body>
+    <h1>Formulário de cadastro de clientes</h1>
+    <!--form[criar um formulário]-->
+    <!--label[texto estático]-->
+    <!--input[entrada de dados]-->
+    <!--br[pula uma linha]-->
+    <form action="cadastro" method="post">
+        <label>Nome:</label> <br> <input type="text" name="nome">   <br>
+        <label>E-mail:</label> <br> <input type="text" name="email">   <br>  
+        <label>Cidade:</label> <br> <input type="text" name="cidade">   <br>  
+        <label>Telefone:</label> <br> <input type="text" name="telefone">   <br>
+        <label>Usuário:</label> <br> <input type="text" name="usuatio">   <br>
+        <label>Senha:</label> <br> <input type="password" name="senha">  <br>
+        <!--submit[indica que o input é um botão]-->
+        <!--value[indica o texto do botão]-->
+        <input type="submit" name="gravar" value="Criar usuário">
+    </form>
+    
+</body>
+</html>

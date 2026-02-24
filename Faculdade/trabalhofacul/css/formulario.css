@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    float: left;
+    width: 100%;
+    height: 200px;
+    line-height: 300px;
+}
+
+#topo{
+    float: left;
+    width: 100%;
+    height: 30px; 
+    
+}
+
+#topo a{
+    text-decoration: none;
+    color: black;
+    background-color: red;
+    height: 30px;
+    border: 10px solid red;
+    border-radius: 5px;
+}
+
+#formulario{
+    float: left;
+    width: 100%;
+    height: 100%;
+    text-align: center;   
+}

@@ -1,0 +1,88 @@
+h1{
+    text-align: center;
+    float: left;
+    width: 100%;
+    height: 200px;
+    line-height: 300px;
+}
+
+#total{
+width: 900px;
+}
+
+#topo{
+    float: left;
+    width: 100%;
+    height: 30px; 
+    
+}
+
+#topo a{
+    text-decoration: none;
+    color: black;
+    background-color: red;
+    height: 30px;
+    border: 10px solid red;
+    border-radius: 5px;
+}
+
+#consultas{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+#consultas a{
+    text-decoration: none;
+    color: #000;
+}
+
+#cardio{
+    float: left;
+    width: 50%;
+    height: 100px;
+}
+
+#pediatria{
+    float: right;
+    width: 50%;
+    height: 100px;
+}
+
+#oftamologista{
+    float: left;
+    width: 50%;
+    height: 100px;
+    
+}
+
+#dermo{
+    float: right;
+    width: 40%;
+    height: 100px;
+}
+
+#container{
+    float: left;
+    width: 40%;
+    height: 200px;
+}
+
+#container2{
+    float: right;
+    width: 40%;
+    height: 200px;
+}
+
+#container3{
+    float: left;
+    width: 40%;
+    height: 200px;
+}
+
+#container4{
+    float: right;
+    width: 40%;
+    height: 200px;
+}
+

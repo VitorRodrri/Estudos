@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agedar Horário</title>
+    <link rel="stylesheet" type="text/css" href="css/formulario.css">
+</head>
+<body>
+    <header id="topo">
+      <a href="agendamento.html">VOLTAR</a>
+    </header>
+
+     <h1>AGENDE UM HORÁRIO</h1>
+
+     <form id="formulario" name="Cadastro" method="GET" action="script.php">
+
+        <label for="nome">Nome completo:</label> <br>
+           <input type="text" id="nome" name="nomeCompleto">
+        <br> <br>
+        <label for="cpf">CPF:</label> <br>
+           <input type="number" id="cpf" name="cpfRegistro">
+        <br>  <br>
+        <label for="data">Data</label> <br>
+           <input type="date" id="data" name="dataMarcada">
+        <br> <br>
+        <label for="hora">Horário</label> <br>
+            <input type="time" id="hora" name="horaCadastro">  
+        <br> <br>
+        <input type="submit" value="Enviar">   
+     </form>
+</body>
+</html>

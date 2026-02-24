@@ -1,0 +1,12 @@
++                                                                          relacionais                        identidade
+-                                                                     >                                     === 
+*                                                                     <                                     !==
+/                                                                     >= 
+% para caucular o resto da divisão                                    <=
+** caucular a potência                                                ==
+                                                                      != diferente
+
+lógicos
+! negação pode ser qualquer uma menos a que neguei
+&& conjunção tem que ser o que pedi
+|| disjunção pode ser uma ou outra
